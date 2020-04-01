@@ -1,0 +1,66 @@
+a:hover {
+    color: darkturquoise;
+    text-decoration: none;
+}
+.navbar-brand   {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.brand  {
+    color: white;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.fixed-top {
+    padding-top: 0!important;
+    padding-bottom: 0 !important
+}
+.nav-item   {
+    text-transform: uppercase;
+    padding-bottom: 15px!important;
+    padding-top: 15px!important
+}
+.nav-item:hover {
+    background-color: darkturquoise;
+}
+
+.carousel   {
+    padding-top: 57px;
+}
+.carousel-caption {
+    text-shadow: 2px 2px 3px black;
+}
+.teks   {
+    color: grey;
+}
+.gambar {
+    border-radius: 100%;
+}
+.h6 {
+    margin-left: 40px;
+    padding-left: 30px;
+    color: white;
+    border-left: 3px solid aquamarine;
+}
+.sosmed {
+    padding-top: 35px;
+    font-size: 10pt;
+}
+.ikon    {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: grey;
+}
+.keatas:hover>.keatass {
+    display: block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fixed-top {
+        padding-top: 8px!important;
+        padding-bottom: 8px!important
+    }
+}

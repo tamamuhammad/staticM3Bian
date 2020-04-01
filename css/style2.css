@@ -1,0 +1,171 @@
+a:hover {
+    color: khaki;
+    text-decoration: none;
+}
+
+.fixed-top {
+    padding-top: 0!important;
+    padding-bottom: 0 !important
+}
+.nav-item   {
+    text-transform: uppercase;
+    padding-bottom: 15px!important;
+    padding-top: 15px!important
+}
+
+.nav-item:hover {
+    background-color: cadetblue;
+}
+
+@media only screen and(max-width:600px)    {
+    .fixed-top {
+        padding-top: 8px!important;
+        padding-bottom: 8px!important
+    }
+}
+
+.navbar-brand   {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.brand  {
+    color: white;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+#article-header {
+    background-image: url('../img/monumen_pekalongan.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+    background-size: cover;
+}
+
+#article-header2 {
+    background-image: url('../img/alam1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+    background-size: cover;
+}
+
+#article-header3 {
+    background-image: url('../img/btk.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+    background-size: cover;
+}
+
+#article-header4 {
+    background-image: url('../img/sp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+    background-size: cover;
+}
+
+.display-1 {
+    margin-top: 35%;
+    text-shadow: 2px 3px 3px black;
+}
+
+.display-p {
+    text-align: justify;
+    font-size: 14pt;
+    text-shadow: 3px 4px 3px black;
+}
+
+.artikel {
+    text-align: justify;
+}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 33%;
+    opacity: 0.9;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.share-btn:hover {
+    color: #eeeeee;
+}
+
+.share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+.share-btn.facebook {
+    background: #3B5998;
+}
+
+.share-btn.twitter {
+    background: #55acee;
+}
+
+.share-btn.email {
+    background: #dd4b39;
+}
+
+.gambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#tm {
+    text-align: center;
+}
+
+.info   {
+    padding-bottom: 27px;
+}
+
+.card-title {
+    border-left: 3px solid aquamarine;
+    margin-left: 40px;
+    padding-left: 30px;
+    color: white;
+}
+
+.profil {
+    border-radius: 100%;
+}
+
+.teks {
+    color: grey;
+}
+
+.sticky-offset {
+    top: 57px!important;
+}
+
+.sosmed {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.sosial {
+    color: grey;
+    font-weight: 600;
+}
